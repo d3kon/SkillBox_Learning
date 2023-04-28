@@ -1,0 +1,6 @@
+first_class = list(range(160, 176, 2))
+print(first_class)
+second_class = list(range(162, 180, 3))
+print(second_class)
+first_class.extend(second_class)
+print(sorted(first_class))
